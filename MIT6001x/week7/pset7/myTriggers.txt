@@ -1,0 +1,26 @@
+##
+## trigger file
+## 
+
+#---------------------------
+#      examples
+#---------------------------
+# t0 TITLE global
+# t1 SUBJECT world
+# t2 SUMMARY Google
+# t3 PHRASE New York City
+# t4 AND t2 t3
+# t5 OR t2 t3
+# t6 NOT t0
+# ADD t2  t3    
+
+#---------------------------
+#      set triggers
+#---------------------------
+
+t1 PHRASE Japan
+t2 PHRASE Amazon
+t3 PHRASE Google
+t4 OR t2 t3
+ADD t1 t4
+
